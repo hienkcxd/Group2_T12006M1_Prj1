@@ -1,0 +1,118 @@
+.galery-content
+{
+    background: linear-gradient(rgba(236, 240, 241, 0.1), rgba(236, 240, 241, 0.1)), url(../images/galery/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+section
+{
+    width: 1200px;
+    text-align: left;
+}
+section ul
+{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+section ul li
+{
+    list-style: none;
+    background: none;
+    padding: 8px 20px;
+    margin: 5px;
+    font-weight: bold;
+	background: none;
+    border: 2px solid #0abde3;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: greenyellow;
+}
+section ul li:hover
+{
+    background: #182C61;
+}
+section ul li.active
+{
+    background: #182C61;
+    font-weight: bold;
+    color: #7efff5;
+}
+.H_product
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.H_container
+{
+    position: relative;
+    width: 100%px;
+    min-height: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.H_container .itemBox
+{
+    position: relative;
+    width: 285px;
+    height: 465px;
+    margin: 20px;
+    border-radius: 20px;
+    background: linear-gradient(#34e7e4,#00d8d6,#7efff5,#67e6dc,#18dcff,#17c0eb,#00a8ff,#0097e6);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 0.2px #7efff5,
+                -1px -1px 3px 0.2px #7efff5; 
+}
+.H_container .itemBox .H_img img
+{
+    width: 100%;
+    height: 210px;
+}
+.H_container .itemBox .H_img
+{
+    position: relative;
+}
+.H_container .itemBox .H_img .H_name
+{
+    position: absolute;
+    color: white  ;
+    bottom: 20px;
+    left: 10px;
+    font-size: 18px;
+}
+.H_container .itemBox .H_img .H_name_tag
+{
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 10px;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.H_container .itemBox .H_content
+{
+    color: #1B1464;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    
+}
+.itemBox:hover
+{
+    transform: scale(1.12);
+    transition: 0.2s;
+}

@@ -1,0 +1,245 @@
+.H_feedback
+{
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/feedback/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.H_feedback .H_tieude
+{
+     text-align: center;
+
+}
+/*----------------------------Tieu de feedback--------------------------*/
+.H_feedback .H_tieude p:nth-child(1)
+{
+    color: #48dbfb;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 2px solid;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.H_feedback .H_tieude p:nth-child(2)
+{
+    color:#48dbfb;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+/*-----------------------question rate overal----------------------*/
+.H_question
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+p
+{
+    color: #48dbfb;
+}
+.H_rate
+{
+    display: flex;
+    margin-left: 10%;
+    color: #48dbfb;
+    margin-bottom: 30px;
+}
+.H_rate div
+{
+    padding-right: 75px;
+}
+/*-------------------------name and mail----------------------*/
+.H_name_mail
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+}
+.H_name_mail .H_name
+{
+    width: 48%;
+    padding-right: 3%;
+}
+.H_name_mail .H_name input
+{
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #48dbfb;
+    font-size: 15px;
+    color: white;
+}
+.H_name_mail .H_mail
+{
+    width: 48%;
+}
+.H_name_mail .H_mail input
+{
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #48dbfb;
+    font-size: 15px;
+    color: white;
+}
+.H_name_mail input:hover
+{
+    background:  rgba(72, 219, 251,1.0);
+    transition: 0.5s;
+}
+.H_name_mail input:focus
+{
+    background-color: rgba(72, 219, 251,0.3);
+}
+/*-----------------------age and phone-----------------------*/
+.H_age_phone
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+}
+.H_age_phone .H_age
+{
+    width: 48%;
+    padding-right: 3%;
+}
+.H_age_phone .H_age input
+{
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #48dbfb;
+    font-size: 15px;
+    color: white;
+}
+.H_age_phone .H_phone
+{
+    width: 48%;
+}
+.H_age_phone .H_phone input
+{
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #48dbfb;
+    font-size: 15px;
+    color: white;
+}
+.H_age_phone input:hover
+{
+    background:  rgba(72, 219, 251,1.0);
+    transition: 0.5s;
+}
+.H_age_phone input:focus
+{
+    background-color: rgba(72, 219, 251,0.3);
+}
+/*----------------------message------------------------*/
+.H_mess
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 20px;
+}
+.H_mess textarea
+{
+    width: 99%;
+    height: 100px;
+    columns: 100;
+    resize: none;
+    color: white;
+    border: 1px solid #48dbfb;
+    background: rgba(72, 219, 251, 0.5);
+    font-size: 15px;
+}
+
+/*-------------button---------------------------*/
+.H_butt
+{
+text-align: center;
+margin-top: 20px;
+}
+.H_butt button
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: #2c3e50;
+    border: 2px solid #3498db;
+}
+.H_butt button:hover
+{
+    background-color: turquoise;
+    color: #2c3e50;
+    transition: 0.4s;
+}
+@media (max-width: 900px)
+{
+    .H_name_mail
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display: block;
+    }
+    .H_name_mail .H_name
+    {
+        width: 100%;
+    }
+    .H_name_mail .H_name input
+    {
+        width: 100%;
+
+    }
+    .H_name_mail .H_mail
+    {
+        width: 100%;
+    }
+    .H_name_mail .H_mail input
+    {
+        width: 100%;
+    }
+
+    /*-----------------------age and phone-----------------------*/
+    .H_age_phone
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display: block;
+    }
+    .H_age_phone .H_age
+    {
+        width: 100%;
+    }
+    .H_age_phone .H_age input
+    {
+        width: 100%;
+
+    }
+    .H_age_phone .H_phone
+    {
+        width: 100%;
+    }
+    .H_age_phone .H_phone input
+    {
+        width: 100%;
+
+    }
+}
