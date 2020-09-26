@@ -1,0 +1,157 @@
+.M_body {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../images/feedback/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.M_container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#M_section {
+
+    padding-bottom: 2%;
+}
+
+#M_section .M_container h2 {
+    text-align: center;
+    color: #48dbfb;
+    font-size: 35px;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #48dbfb;
+}
+
+#M_section .M_container p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: #48dbfb;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.M_form i.fa {
+    font-size: 20px;
+    background-color: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 80%;
+    cursor: pointer;
+    border: 2px solid #48dbfb;
+    color: #48dbfb;
+}
+
+.M_form i.fa:hover {
+    cursor: pointer;
+    border: 2px solid #48dbfb;
+    color: #48dbfb;
+}
+
+.M_form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+
+.M_form_info {
+    font-size: 16px;
+    font-style: italic;
+    color: #48dbfb;
+    letter-spacing: 2px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    background-color: rgba(136, 133, 133, 0.3);
+    color: #48dbfb;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    background-color: rgba(136, 133, 133, 0.3);
+    color: #48dbfb;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: white;
+    font-size: 13px;
+}
+
+.M_submit {
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid #48dbfb;
+    color: #48dbfb;
+}
+
+.M_submit:hover {
+    border: 1px solid #48dbfb;
+    color: #48dbfb;
+    cursor: pointer;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+@media (max-width: 900px) {
+    #M_section .M_form {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .M_form
+    {
+        display: block;
+    }
+    .M_form div:nth-child(1)
+    {
+        text-align: left;
+    }
+    #M_section .submit {
+        width: 60%;
+    }
+    iframe {
+        width: 80%;
+        height: 400px;
+    }
+}

@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarium-Galery</title>
+    <!--css chung sau khi-->
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/scrolltotop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--css rieng cua tung phan-->
+    <link rel="stylesheet" href="styles/gallery.css">
+
+</head>
+<body>  
+  <!----------------------------------------------------paneltop--------------------------------------------->
+  <div class="nav-top">
+    <div class="clock">Opening time: 8AM to 5PM</div>
+    <div class="top-nav">
+      <ul>
+        <li class="mem"><a href="">MEMBERSHIP</a></li>
+        <li class="give"><a href="">GIVE TODAY</a></li>
+        <li class="cons"><a href="">CONSERVATION</a></li>
+        <li class="tick-top"><a href="buyticket.html"></a></li>
+      </ul>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  <!------------------------------------------------------NAV---------------------------------------------------->  
+  <header>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"><p>AQUARIUM NEXUS</p></a>
+
+      <div class="menu-toggle"></div>
+
+        <div class="search">
+          <button class="search-toggle" id="btn-toggle"><a>
+            <i class="fa fa-search-plus" aria-hidden="true"></i></a>
+          </button>
+        </div>
+
+        <div class="ticket"><a href="buyticket.html" >Ticket</a></div>
+
+        <nav class="menu">
+          <ul>
+              <li class="about" ><a href="aboutus.html">About Us</a></li>
+              <li class="event"><a href="event.html">Event</a></li>
+              <li class="gallery" class="active"><a href="gallery.html">Gallery</a></li>
+              <li class="feed"><a href="feedback.html">Feedback</a></li>
+          </ul>
+      </nav>
+
+        <div class="clearfix"></div>
+    </header>
+<!-----------------------------------------------SEARCH------------------------------------------------->  
+    <div class="sear-toggle" id="sear-toggle" style="display: none;">
+
+      <input type="text" name="search" class="inp-search" title="1231312321" style="font-size: 15px;" placeholder="Search animals, event and more." onkeyup="search()"> 
+
+      <button class="btn-search" onclick="search()"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+      <div class="clearfix"></div>
+    </div>
+
+
+
+<!----------------------------------------------Galery------------------------------------------------> 
+<div class="galery-content">
+  <section>
+    <ul>
+      <li class="list active" data-filter="All">All</li>
+      <li class="list" data-filter="Octopus">Octopus</li>
+      <li class="list" data-filter="bigfish">BigFish</li>
+      <li class="list" data-filter="smallfish">SmallFish</li>
+      <li class="list" data-filter="furseal">FurSeal</li>
+      <li class="list" data-filter="seaturtle">SeaTurtle</li>
+    </ul>
+  </section>
+<div class="H_product">
+<div class="H_container">
+  <!----------------------bach tuoc---------------------->
+    <div class="itemBox Octopus">
+        <div class="H_img">
+            <img src="images/galery/octopus/jmg/bạch tuộc 1.jpg" alt="">
+            <p class="H_name">Octopus Vulgaris</p>
+            <p class="H_name_tag">(Octopus)</p>
+        </div>
+        <div class="H_content">
+          <p><b>Distribution: </b>East Atlantic, West Atlantic.</p>
+          <p><b>Life: </b>2 years.</p>
+          <p><b>Food: </b>Crayfish, and bivalve mollusks.</p>
+          <p><b>Reproductive: </b>Spawn.</p>
+          <p><b>Amount: </b>500 individuals.</p>
+          <p><b>Other Inf: </b>Octopus is the most intelligent animals.</p>
+        </div>
+    </div>  
+
+
+    <div class="itemBox Octopus">
+      <div class="H_img">
+          <img src="images/galery/octopus/bachtuoc dù.jpg" alt="">
+          <p class="H_name">Umbrella Octopus</p>
+          <p class="H_name_tag">(Opisthoteuthidae)</p>
+      </div>
+      <div class="H_content">
+        <p><b>Distribution: </b>Pacific Oceans, South China Sea.</p>
+        <p><b>Life: </b>2-4 years.</p>
+        <p><b>Food: </b>Crayfish, and bivalve mollusks.</p>
+        <p><b>Reproductive: </b>Spawn.</p>
+        <p><b>Amount: </b>500 individuals.</p>
+        <p><b>Other Inf: </b>They range in length from 10cm to 20cm</p>
+      </div>
+  </div>
+
+
+  <div class="itemBox Octopus">
+    <div class="H_img">
+        <img src="images/galery/octopus/Blanket-Octopus-Weird-Facts.jpg" alt="">
+        <p class="H_name">Tremoctopus</p>
+        <p class="H_name_tag">(pelagic cephalopods)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Pacific Oceans.</p>
+      <p><b>Life: </b>3-5 years.</p>
+      <p><b>Food: </b>Crayfish, and bivalve mollusks.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>40 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 2m.</p>
+    </div>
+</div>
+
+
+<!------------------------------Ca lon------------------------------>
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá heo/Cá heo Burrunan (Burrunan dolphin)/jmg/cá heo Burrunan 3.png" alt="">
+        <p class="H_name">Burrunan Dolphin</p>
+        <p class="H_name_tag">(Tursiops australis)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Parts of the state of Victoria, Australia.</p>
+      <p><b>Life: </b>20-40 years.</p>
+      <p><b>Food: </b>Mainly other small fish species.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>300 individuals.</p>
+      <p><b>Other Inf: </b>They range in length from 2.27 to 2.78m (7.4 and 9.1ft).</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá heo/Cá heo mõm ngắn/jmg/cá heo mõm ngắn.jpg" alt="">
+        <p class="H_name"> Short-Beaked Common Dolphin</p>
+        <p class="H_name_tag">(Delphinus delphis)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>the warm temperate regions of the Atlantic and Pacific.</p>
+      <p><b>Life: </b>20-40 years.</p>
+      <p><b>Food: </b>Mainly other small fish species.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>200 individuals.</p>
+      <p><b>Other Inf: </b>They range in length from 1.5 to 2.44m</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá heo/Cá Heo Mũi Chai/jmg/ca heo mui chai 4.jpg" alt="">
+        <p class="H_name"> Common Bottlenose Dolphin</p>
+        <p class="H_name_tag">(Tursiops truncatus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>India, North Australia, South China, Red Sea, and the east coast of Africa.</p>
+      <p><b>Life: </b>20-40 years</p>
+      <p><b>Food: </b>Mainly other small fish species.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>400 individuals.</p>
+      <p><b>Other Inf: </b>Length is up to 2.6m long.</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá heo/Cá Răng Nhám/jmg/cá heo răng nhám 2.jpg" alt="">
+        <p class="H_name">Rough-Toothed Dolphin</p>
+        <p class="H_name_tag">(Steno bredanensis)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Pacific, Atlantic, Indian Oceans, Mediterranean Sea.</p>
+      <p><b>Life: </b>20-40 years.</p>
+      <p><b>Food: </b>Mainly other small fish species.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>400 individuals.</p>
+      <p><b>Other Inf: </b>They range in length from 2.09 to 2.83m</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá hải tượng/jmg/cá hải tượng.jpg" alt="">
+        <p class="H_name">Pirarucu</p>
+        <p class="H_name_tag">(Arapaima gigas)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>South America.</p>
+      <p><b>Life: </b>16-20 years.</p>
+      <p><b>Food: </b>Mainly fish species. </p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>400 individuals.</p>
+      <p><b>Other Inf: </b>They range in length from 2m to 2.5m</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mập/Cá mập bò/jmg/bullshark.jpg" alt="">
+        <p class="H_name">Bull Shark</p>
+        <p class="H_name_tag">(Carcharhinus leucas)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indiana, USA in the Ohio River.</p>
+      <p><b>Life: </b>22-25 years.</p>
+      <p><b>Food: </b>Fish, seals, small marine animals</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>50 individuals.</p>
+      <p><b>Other Inf: </b>Average length is 2.4 m and weighs 130 kg.</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mập/Cá mập đầu búa/jmg/cá mập đầu búa 2.jpg" alt="">
+        <p class="H_name">Great Hammerhead</p>
+        <p class="H_name_tag">(Sphyrna mokarran)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b> Atlantic Ocean, Caribbean Sea, Pacific Ocean...</p>
+      <p><b>Life: </b>40-50 years.</p>
+      <p><b>Food: </b>Small fish, octopus, squid...</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>100 individuals.</p>
+      <p><b>Other Inf: </b>Average length is about 4.5-6.1m.</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mập/Cá Mập Hổ/jmg/cá mập hổ.jpg" alt="">
+        <p class="H_name">Tiger Shark</p>
+        <p class="H_name_tag">(Galeocerdo cuvier)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Around Pacific islands.</p>
+      <p><b>Life: </b>45-50 years.</p>
+      <p><b>Food: </b>fish, seals, birds, smaller sharks...</p>
+      <p><b>Reproductive: </b>They breed by internal fertilization.</p>
+      <p><b>Amount: </b>35 individuals.</p>
+      <p><b>Other Inf: </b>Average size 3.25 m and weight from up to 909kg</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mập/cá mập kiếm/jmg/cá mập kiếm.jpg" alt="">
+        <p class="H_name">Saw Shark</p>
+        <p class="H_name_tag">(Pristiophoriformes)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>From the Indian Ocean to the South Pacific</p>
+      <p><b>Life: </b>Over 15 years.</p>
+      <p><b>Food: </b>Small fish, octopus, squid...</p>
+      <p><b>Reproductive: </b>They breed by internal fertilization.</p>
+      <p><b>Amount: </b>125 individuals.</p>
+      <p><b>Other Inf: </b>Average size 1.52m and weight from up to 18.7pound.</p>
+    </div>
+    </div>
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mập/Cá Mập Voi/jmg/cá mập voi.jpg" alt="">
+        <p class="H_name">Whale Shark</p>
+        <p class="H_name_tag">(Rhincodon typus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Tropical and warm-temperate seas</p>
+      <p><b>Life: </b>80-130 years.</p>
+      <p><b>Food: </b>Plankton.</p>
+      <p><b>Reproductive: </b>The eggs remain in the body.</p>
+      <p><b>Amount: </b>10 individuals.</p>
+      <p><b>Other Inf: </b>Average size 18.8m</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/Cá voi sát thủ/jmg/cá voi sát thủ 1.jpg" alt="">
+        <p class="H_name">Killer Whale</p>
+        <p class="H_name_tag">(Orcinus orca)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>All oceans of the world.</p>
+      <p><b>Life: </b>45-50 years.</p>
+      <p><b>Food: </b>Some eat fish, some hunt marine mammals.</p>
+      <p><b>Reproductive: </b>Pregnancy period from 15-18 months.</p>
+      <p><b>Amount: </b>30 individuals.</p>
+      <p><b>Other Inf: </b>Average size 5 to 8m and weigh from 1,400 to 5,400kg.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá cờ.jpg" alt="">
+        <p class="H_name">Atlantic Blue Marlin</p>
+        <p class="H_name_tag">(Makaira nigricans)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Atlantic Oceans.</p>
+      <p><b>Life: </b>10-15 years.</p>
+      <p><b>Food: </b>small fish, small shrimp, small crab.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>100 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 5m.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mái chèo.jpg" alt="">
+        <p class="H_name">Giant Oarfish </p>
+        <p class="H_name_tag">(Regalecus glesne)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>The tropics have medium latitudes.</p>
+      <p><b>Life: </b>30-40 years.</p>
+      <p><b>Food: </b>seaweed, water model, zooplankton, eel larvae, squid.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>200 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 36ft.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox bigfish">
+      <div class="H_img">
+        <img src="images/galery/bigfish/cá mặt trăng.jpg" alt="">
+        <p class="H_name">Common Mola</p>
+        <p class="H_name_tag">(Mola mola)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Atlantic Oceans.</p>
+      <p><b>Life: </b>8-10 years.</p>
+      <p><b>Food: </b>seaweed, water model, zooplankton, eel larvae, squid.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>150 individuals.</p>
+      <p><b>Other Inf: </b>Average size 3.5 to 5.5m and weigh from 1.400 to 1.700kg.</p>
+    </div>
+    </div>
+
+
+
+<!-----------------------------------Ca nho--------------------------------->
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá ali/jmg/cá ali 3.jpg" alt="">
+        <p class="H_name">Ali</p>
+        <p class="H_name_tag">(Pseudotropheus Socolofi)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Distributed between Ruarwe and Nkhata Bay,from southern Tanzania to Northern Mozambique.</p>
+      <p><b>Life: </b>1-2 years.</p>
+      <p><b>Food: </b>Small fish, plankton</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>5000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 15 to 20cm.</p>
+    </div>
+    </div>
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá dĩa/jmg/cá dĩa.jpg" alt="">
+        <p class="H_name">Discus</p>
+        <p class="H_name_tag">(Symphysodo)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Amazon.</p>
+      <p><b>Life: </b>1-2 years.</p>
+      <p><b>Food: </b>Red worms, worms.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>3000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 15 to 20cm.</p>
+    </div>
+    </div>
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá đuôi kiếm/jmg/cá đuôi kiếm.jpg" alt="">
+        <p class="H_name">Green Swordtail </p>
+        <p class="H_name_tag">(Xiphophorus hellerii)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Southeastern Mexico, Central Guatemala, Nma Belize and Northwest Honduras.</p>
+      <p><b>Life: </b>1-2 years.</p>
+      <p><b>Food: </b>Crustaceans, algae and some other groups of plants.</p>
+      <p><b>Reproductive: </b>Cubs.</p>
+      <p><b>Amount: </b>2000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 15 to 20cm.</p>
+    </div>
+    </div>
+
+   
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá hề/jmg/cá hề 3.jpg" alt="">
+        <p class="H_name">Clownfish</p>
+        <p class="H_name_tag">(Amphiprioninae)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Oceans and Pacific Oceans, including the Great Barrier Reef and Red Sea.</p>
+      <p><b>Life: </b>4-6 years.</p>
+      <p><b>Food: </b>Small zooplankton.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>10000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 10 to 18cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá mặt quỷ/jmg/cá mặt quỷ 1.jpg" alt="">
+        <p class="H_name">Stonefish</p>
+        <p class="H_name_tag">(Synanceia)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Ocean, Pacific.</p>
+      <p><b>Life: </b>5-8 years.</p>
+      <p><b>Food: </b>Small fish, squid, shrimp, and some insects.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>500 individuals.</p>
+      <p><b>Other Inf: </b>They range from 20 to 50cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá mú đỏ/jmg/cá mú đỏ 1.jpg" alt="">
+        <p class="H_name">Coral Grouper</p>
+        <p class="H_name_tag">(Cephalopholis miniata)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Ocean, Pacific.</p>
+      <p><b>Life: </b>5-8 years.</p>
+      <p><b>Food: </b>Juveniles, shrimp, squid, crustaceans, and zooplankton.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>5000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 50 to 75cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá ông tiên/jmg/cá ông tiên 1.jpg" alt="">
+        <p class="H_name">Angelfish</p>
+        <p class="H_name_tag">(Pterophyllum scalare)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Amazon, Ucayali, Oyapock...</p>
+      <p><b>Life: </b>5-6 years.</p>
+      <p><b>Food: </b>Juveniles, shrimp and worms.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>8000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 7 to 10cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá rồng/jmg/cá rồng.jpg" alt="">
+        <p class="H_name">Asian arowana</p>
+        <p class="H_name_tag">(Scleropages formosus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indonesia, Malaysia,ThaiLand, VietNam.</p>
+      <p><b>Life: </b>up to 50 years.</p>
+      <p><b>Food: </b>Juveniles, shrimp and worms.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>3000 individuals.</p>
+      <p><b>Other Inf: </b>They range from 60 to 80cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá sim tím/jmg/cá sim tím.jpg" alt="">
+        <p class="H_name">Dusky Angelfish</p>
+        <p class="H_name_tag">(Centropyge bispinosa)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Ocean, Pacific.</p>
+      <p><b>Life: </b>10-15 years.</p>
+      <p><b>Food: </b>Algae and small invertebrates</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>3500 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 10cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá trạng nguyên/jmg/cá trạng nguyên 4.jpg" alt="">
+        <p class="H_name">Mandarinfish</p>
+        <p class="H_name_tag">(Synchiropus splendidus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Ocean, Pacific.</p>
+      <p><b>Life: </b>4-5 years.</p>
+      <p><b>Food: </b>shrimp and worms.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>6500 individuals.</p>
+      <p><b>Other Inf: </b>They range from 6 to 15cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá ngựa.jpg" alt="">
+        <p class="H_name">Seahorse</p>
+        <p class="H_name_tag">(Hippocampus sp)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>South Sea of Australia</p>
+      <p><b>Life: </b>1-5 years.</p>
+      <p><b>Food: </b>smaller fish species to plankton.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>2500 individuals.</p>
+      <p><b>Other Inf: </b>They range from 15 to 40cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/moorish.jpg" alt="">
+        <p class="H_name">Moorish Idol</p>
+        <p class="H_name_tag">(Zanclus cornutus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Oceans, Pacific Oceans.</p>
+      <p><b>Life: </b>3-5 years.</p>
+      <p><b>Food: </b>smaller fish species to plankton.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>2000 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 23cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/cá đuôi gai.jpg" alt="">
+        <p class="H_name">Surgeon Fishes</p>
+        <p class="H_name_tag">(Acanthuridae)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Tropical sea.</p>
+      <p><b>Life: </b>5-7 years.</p>
+      <p><b>Food: </b>smaller fish species to plankton.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>700 individuals.</p>
+      <p><b>Other Inf: </b>They range from 15 to 40cm.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox smallfish">
+      <div class="H_img">
+        <img src="images/galery/smallfish/ca su tu.jpg" alt="">
+        <p class="H_name">Red Lionfish</p>
+        <p class="H_name_tag">(Pterois volitans)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Oceans, Pacific Oceans.</p>
+      <p><b>Life: </b>8-10 years.</p>
+      <p><b>Food: </b>smaller fish species to plankton.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>3000 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 47cm.</p>
+    </div>
+    </div>
+
+
+
+
+
+
+<!-----------------------------------hai cau--------------------------------->
+    <div class="itemBox furseal">
+      <div class="H_img">
+        <img src="images/galery/seadog/hải cẩu xám/jmg/hải cẩu xám.jpg" alt="">
+        <p class="H_name">Fur Seal Grey</p>
+        <p class="H_name_tag">(Halichoerus grypus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Donna Nook British and Irish Islands, Farne Islands, Orkney.</p>
+      <p><b>Life: </b>25-35 years.</p>
+      <p><b>Food: </b>Fish, lobster, sand eel, crab, ...</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>200 individuals.</p>
+      <p><b>Other Inf: </b>They range in length from 1.6 to 3.3m.</p>
+    </div>
+    </div>  
+
+
+    <div class="itemBox furseal">
+      <div class="H_img">
+        <img src="images/galery/seadog/hải cẩu cảng biển/jmg/habor.jpg" alt="">
+        <p class="H_name">Harbor</p>
+        <p class="H_name_tag">(Phoca vitulina)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Atlantic, Pacific Oceans, Baltic and North Seas.</p>
+      <p><b>Life: </b>20-35 years.</p>
+      <p><b>Food: </b>Fish, lobster, sand eel, crab, ...</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>50 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 1.85m.</p>
+    </div>
+    </div> 
+
+
+    <div class="itemBox furseal">
+      <div class="H_img">
+        <img src="images/galery/seadog/hải cẩu thầy tu.jpg" alt="">
+        <p class="H_name">Mediterranean Monk Seal</p>
+        <p class="H_name_tag">(Monachus monachus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Mediterranean Sea and east Atlantic.</p>
+      <p><b>Life: </b>20-25 years.</p>
+      <p><b>Food: </b>Small fish, both shrimp and crab.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>20 individuals.</p>
+      <p><b>Other Inf: </b>Average size up to 2.4m.</p>
+    </div>
+    </div> 
+
+
+    <div class="itemBox furseal">
+      <div class="H_img">
+        <img src="images/galery/seadog/hải tượng biển.jpg" alt="">
+        <p class="H_name">Elephant Seals</p>
+        <p class="H_name_tag">(Mirounga)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Pacific Ocean of America, Canada and Mexico.</p>
+      <p><b>Life: </b>20-25 years.</p>
+      <p><b>Food: </b>Small fish, both shrimp and crab.</p>
+      <p><b>Reproductive: </b>Cub.</p>
+      <p><b>Amount: </b>40 individuals.</p>
+      <p><b>Other Inf: </b>Average size up to 3.7m.</p>
+    </div>
+    </div> 
+
+
+
+
+
+
+
+<!-----------------------------------rua bien--------------------------------->
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/con vích/jmg/vích 2.jpg" alt="">
+        <p class="H_name">Olive Ridley Sea Turtle</p>
+        <p class="H_name_tag">(Lepidochelys olivacea)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Pacific and Indian Oceans.</p>
+      <p><b>Life: </b>Up to 80 years.</p>
+      <p><b>Food: </b>Seagrass, jellyfish, crabs, molluscs and mollusks.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>50 individuals.</p>
+      <p><b>Other Inf: </b>Weight ranges from 25 kg to 46 kg.</p>
+    </div>
+    </div>   
+
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/Đồi mồi/jmg/đồi mồi 2.jpg" alt="">
+        <p class="H_name">Hawksbill Sea Turtle</p>
+        <p class="H_name_tag">(Eretmochelys imbricata)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Indian Oceans, VietNam, China...</p>
+      <p><b>Life: </b>Up to 80 years.</p>
+      <p><b>Food: </b>Fish, shrimp, seaweed, seaweed, jellyfish, crabs, molluscs and sponges</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>20 individuals.</p>
+      <p><b>Other Inf: </b>They can be used as a medicinal.</p>
+    </div>
+    </div>
+    
+
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/rùa quản đồng/jmg/caretta.jpg" alt="">
+        <p class="H_name">Loggerhead Sea Turtle</p>
+        <p class="H_name_tag">(Caretta caretta)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>They live in the tropics around the equator.</p>
+      <p><b>Life: </b>Up to 80 years.</p>
+      <p><b>Food: </b>Fish, shrimp, seaweed, sea grass, jellyfish, crab...</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>35 individuals.</p>
+      <p><b>Other Inf: </b>The sex of the baby turtle is determined by the temperature.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/rùa biển xanh.jpg" alt="">
+        <p class="H_name">Green Sea Turtle</p>
+        <p class="H_name_tag">(Chelonia mydas)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Atlantic, Pacific, Indian Oceans.</p>
+      <p><b>Life: </b>50-70 years.</p>
+      <p><b>Food: </b>Small fish, sometimes crabs and small shrimp.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>20 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 1m.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/rùa da.jpg" alt="">
+        <p class="H_name">Leatherback Sea Turtle</p>
+        <p class="H_name_tag">(Dermochelys coriacea)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Alaska, New Zealand, Atlantic, Indian Ocean, Pacific Ocean.</p>
+      <p><b>Life: </b>50-60 years.</p>
+      <p><b>Food: </b>Small fish, sometimes crabs and small shrimp.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>30 individuals.</p>
+      <p><b>Other Inf: </b>Size up to 1.2m.</p>
+    </div>
+    </div>
+
+
+    <div class="itemBox seaturtle">
+      <div class="H_img">
+        <img src="images/galery/seaturtle/rùa lưng phẳng.jpg" alt="">
+        <p class="H_name">Australian Flatback Sea Turtle</p>
+        <p class="H_name_tag">(Natator depressus)</p>
+    </div>
+    <div class="H_content">
+      <p><b>Distribution: </b>Distributed in the shallow waters of Australia.</p>
+      <p><b>Life: </b>50-60 years.</p>
+      <p><b>Food: </b>Small fish, sometimes crabs and small shrimp.</p>
+      <p><b>Reproductive: </b>Spawn.</p>
+      <p><b>Amount: </b>50 individuals.</p>
+      <p><b>Other Inf: </b>Sizze up to 96cm.</p>
+    </div>
+    </div>
+
+    
+</div>
+</div>
+</div>
+
+
+<!------------------------------------------------The End------------------------------------------------->
+  <div class="tictle-end">
+    <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+    <p>Sign up to receive updates on animals, news and events.</p>
+    <p><a href="#">Subscribe Today</a></p>
+  </div>
+  <!------------------------------------------------The contact------------------------------------------------->
+  <div class="contact">
+    <div class="btn-contact">
+      <table class="table1">
+      <tr>
+        <td><a href="contact.html">Contact Us</a></td>
+        <td></td>
+        <td><a href="buyticket.html">Buy Tickets</a></td>
+    </tr>
+    </table>
+  </div>
+  <div class="icon">
+        <a href="#" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" class="twiter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  </div>
+  </div>
+  <div class="address">
+    <p><i class="fa fa-copyright" aria-hidden="true"></i> 2020 National Aquarium</p>
+    <p>501 E Pratt St., Baltimore, MD 21202</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------script-------------------------------------------------->
+<a id="button"></a>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $(".menu-toggle").click(function(){
+          $(".menu-toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
+  </script>
+<!--scroll-->  
+<script>
+  var btn = $('#button');
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+      }
+      else {
+    btn.removeClass('show');
+  }
+});
+  btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+  });
+</script>
+
+
+<script src="scripts/index.js"></script>
+<script src="scripts/galery.js"></script>
+<script src="scripts/search.js"></script>
+</body>
+</html>
