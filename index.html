@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Nexus Aquarium</title>
+    <!-------------------- CSS Homepage -------------------->
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/toggle_search.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/scroll_to_top.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-------------------- Panel Top -------------------->
+    <div class="nav-top">
+        <div class="clock">Opening time: 8AM to 5PM</div>
+        <div class="top-nav">
+            <ul>
+                <li class="mem"><a href="">MEMBERSHIP</a></li>
+                <li class="give"><a href="">GIVE TODAY</a></li>
+                <li class="cons"><a href="">CONSERVATION</a></li>
+                <li class="tick-top">
+                    <a href="ticket"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-------------------- Navigation Bar -------------------->
+    <header>
+        <a href="./" class="logo"><img src="images/home/logo.png" alt="logo">
+            <p>AQUARIUM NEXUS</p>
+        </a>
+        <div class="menu-toggle"></div>
+        <div class="search">
+            <button class="search-toggle" id="btn-toggle"><a>
+            <i class="fa fa-search-plus" aria-hidden="true"></i></a>
+          </button>
+        </div>
+        <div class="ticket"><a href="ticket">Ticket</a></div>
+        <nav class="menu">
+            <ul>
+                <li class="about"><a href="about">About Us</a></li>
+                <li class="event"><a href="event">Event</a></li>
+                <li class="gallery" class="active"><a href="gallery">Gallery</a></li>
+                <li class="feed"><a href="feedback">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+
+    <!-------------------- Search -------------------->
+    <div class="sear-toggle" id="sear-toggle" style="display: none;">
+        <input type="text" name="search" class="inp-search" title="1231312321" style="font-size: 15px;" placeholder="Search animals, event and more.">
+        <button type="button" class="btn-search"><i class="fa fa-search-plus" aria-hidden="true"></i></i></button>
+    </div>
+
+    <!-------------------- Slide -------------------->
+    <div class="home">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('images/home/slide_1.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>Nasus Aquarium 2020</h1>
+                        <p>Officially put into operation.</p>
+                        <a href="">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/home/slide_2.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>Nasus Aquarium 2020</h1>
+                        <p>Officially put into operation.</p>
+                        <a href="">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/home/slide_3.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>Nasus Aquarium 2020</h1>
+                        <p>Officially put into operation.</p>
+                        <a href="">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/home/slide_4.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>Nasus Aquarium 2020</h1>
+                        <p>Officially put into operation.</p>
+                        <a href="">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/home/slide_5.jpg')">
+                <div class="container">
+                    <div class="caption">
+                        <h1>Nasus Aquarium 2020</h1>
+                        <p>Officially put into operation.</p>
+                        <a href="">Visit Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Control & Auto Slide-->>
+        <div class="controls">
+            <div class="prev"></div>
+            <div class="next"></div>
+        </div>
+        <!-- Indicators -->
+        <div class="indicator"></div>
+    </div>
+
+    <!-------------------- Content 1 -------------------->
+    <div class="content-home">
+        <div class="content1-home">
+            <span class="conten1-img">
+          <img src="images/home/content_1.jpeg" alt="aquarium">
+      </span>
+            <table class="table2">
+                <tr>
+                    <td colspan="2">
+                        HOURS OF OPERATION
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Active hours at the Aquarium
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Guests may tour up to 90 minutes after the last entry time.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sunday-Thursday</td>
+                    <td>9am - 5pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9am - 8pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>9am - 6pm</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="ticket"><button>BOOKING TOUR</button></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-------------------- Content 2 -------------------->
+    <div class="content2">
+        <table class="table3">
+            <tr>
+                <td rowspan="3">
+                    <a href="content/content_hompage1.html"><img src="images/home/content_2.1.jpg" alt="" width="390px" height="740px">
+                        <div class="text-block1">
+                            <p>Shark Hammer Head</p>
+                            <p>(Sphyrna mokarran)</p>
+                            <p>"Sphyrna mokarran" found in warm tropical and temperate seas around the world, and inhabits coastal areas and continental shelves.</p>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="content/content_hompage2.html">
+                        <img src="images/home/content_2.2.jpg" alt="" width="390px" height="240px">
+                        <div class="text-block2">
+                            <p>Pindani</p>
+                            <p>(Pseudotropheus socolofi)</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="content/content27.html">
+                        <img src="images/home/content_2.3.png" alt="" width="390px" height="240px">
+                        <div class="text-block3">
+                            <p>mandarin dragonet</p>
+                            <p>(Synchiropus splendidus)</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="content/content19.html">
+                        <img src="images/home/content_2.4.jpg" alt="" width="390px" height="240px">
+                        <div class="text-block4">
+                            <p>Discus</p>
+                            <p>(Symphysodon)</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table class="table4">
+            <tr>
+                <td>
+                    <p>FEATURED ANIMALS</p>
+                    <p>20,000 Animals. 800 Species. One Aquarium.</p>
+                    <p>Learn about animals from all over our blue planet—from the depths of the ocean to the canopy of the rain forest—and discover the connection they all share with water.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-------------------- Content 3 -------------------->
+    <div class="tag1">
+        <div class="tag">
+            <p>FEATURED STORIES</p>
+            <p>The Latest From the National Aquarium</p>
+        </div>
+        <div class="content3">
+            <div class="history">
+            <a href="content/story1.html" style="text-decoration: none;">
+                <div class="card">
+                    <div class="card-image"></div>
+                    <div class="card-text">
+                        <span class="date">1 year ago</span>
+                        <p style="font-size: 20px; font-weight: bold;color: black;">ANIMAL CARE</p>
+                        <p>As they continue preparing our dolphin colony for its move to a seaside sanctuary...</p>
+                    </div>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <div class="value">4<sup>m</sup></div>
+                            <div class="type">read</div>
+                        </div>
+                        <div class="stat border">
+                            <div class="value">5123</div>
+                            <div class="type">views</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value">32</div>
+                            <div class="type">comments</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="content/story2.html" style="text-decoration: none;">
+                <div class="card">
+                    <div class="card-image card2"></div>
+                    <div class="card-text card2">
+                        <span class="date">5 months ago</span>
+                        <P style="font-size: 20px; font-weight: bold;color: black;">CLEAN UP OCEANS</P>
+                        <p>The aquarium's annual beach cleaning campaign is an activity aimed at connecting the community and raising people's awareness.</p>
+                    </div>
+                    <div class="card-stats card2">
+                        <div class="stat">
+                            <div class="value">7<sup>m</sup></div>
+                            <div class="type">read</div>
+                        </div>
+                        <div class="stat border">
+                            <div class="value">7152</div>
+                            <div class="type">views</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value">21</div>
+                            <div class="type">comments</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="content/story3.html" style="text-decoration: none;">
+                <div class="card">
+                    <div class="card-image card3"></div>
+                    <div class="card-text card3">
+                        <span class="date">1 month ago</span>
+                        <p style="font-size: 20px; font-weight: bold;color: black;">RESCUE MARINE LIFE</p>
+                        <p>The campaign to save marine life from plastic waste, and condemnation and propaganda in the community.</p>
+                    </div>
+                    <div class="card-stats card3">
+                        <div class="stat">
+                            <div class="value">5<sup>m</sup></div>
+                            <div class="type">read</div>
+                        </div>
+                        <div class="stat border">
+                            <div class="value">3021</div>
+                            <div class="type">views</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value">15</div>
+                            <div class="type">comments</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------- Footer -------------------->
+    <div class="tictle-end">
+        <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+        <p>Sign up to receive updates on animals, news and events.</p>
+        <p><a href="#">Subscribe Today</a></p>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+        <div class="btn-contact">
+            <table class="table1">
+                <tr>
+                    <td><a href="contact">Contact Us</a></td>
+                    <td></td>
+                    <td><a href="ticket">Buy Tickets</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="icon">
+            <a href="https://facebook.com/" class="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/" class="twiter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href="htpps://youtube.com/" class="youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="address">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> 2020 National Aquarium</p>
+        <p>501 E Pratt St, Baltimore, MD 21202, USA</p>
+    </div>
+
+    <!-------------------- Script -------------------->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Menu Toggle -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-toggle").click(function() {
+                $(".menu-toggle").toggleClass("active");
+                $("nav").toggleClass("active");
+            });
+        });
+    </script>
+    <!-- Scroll To Top -->
+    <a id="button"></a>
+    <script>
+        var btn = $('#button');
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, '300');
+        });
+    </script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/slide.js"></script>
+</body>
+
+</html>
